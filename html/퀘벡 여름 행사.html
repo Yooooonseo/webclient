@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>퀘벡 여름 축제</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #container {
+        width: 1300px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #content {
+        width: 1070px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #content2{
+        width: 1250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border:1px solid #bcbcbc;
+      }
+      #sidebar {
+        width: 130px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 900px ) {
+        #container {
+          width: auto;
+        }
+        #content {
+          float: none;
+          width: auto;
+        }
+        #sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+     .gallery{
+       margin: 5px 5px;
+     }
+     .gallery img{
+       width: 233px;
+       height: 165.33px;
+       padding: 5px;
+       filter: grayscale(100%);
+       transition: 1s;
+     }
+     .gallery img:hover{
+       filter: grayscale(0);
+       transform: scale(1,1);
+     }
+     p, li{font-size: 17px;}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>퀘벡 여름 축제</h1>
+      </div>
+      <div id="content">
+        <h2>행사</h2>
+          <img src="../image/퀘백 여름_1.jpeg" style="width:400px; margin:10px; margin-top: 0px; float:left;">
+          <p>축제가 시작되면 퀘벡 도시 전체가 음악으로 가득 찬다. 주 공연장인 아브라함 평원에서는 매일 밤 
+            관람객 수만 명이 운집한 가운데 세계적인 음악인들의 공연이 열린다. 주 공연장 외에 프랑코포니 공원과 
+            듀빌 광장에서 야외 공연이 펼쳐지고, 실내 공연장으로는 퀘벡 임페리얼 극장, 프티 임페리얼 극장 등에서
+            다양한 공연이 진행된다. 또한 축제 기간에는 수많은 가장 행렬, 야외 뮤지컬, 거리 음악 공연,
+            저글링이나 아크로바트, 서커스 같은 거리 행사가 펼쳐져 축제 분위기를 돋운다.
+        </p>
+      </div>
+      <div id="sidebar">
+        <h2>menu</h2>
+        <ul>
+          <li><a href="퀘벡 여름 소개.html">소개</a></li><br>
+          <li><a href="퀘벡 여름 유래.html">유래</a></li><br>
+          <li><a href="퀘벡 여름 행사.html">행사</a></li>
+        </ul>
+      </div>
+      <div id="content2">
+        <h2>사진 더보기</h2>
+        <div class="gallery">
+          <a href="../image/여름6.jpg"><img src="../image/여름6.jpg"></a>
+          <a href="../image/여름2.jpeg"><img src="../image/여름2.jpeg"></a>
+          <a href="../image/여름3.jpg"><img src="../image/여름3.jpg"></a>
+          <a href="../image/여름4.jpg"><img src="../image/여름4.jpg"></a>
+          <a href="../image/여름5.jpg"><img src="../image/여름5.jpg"></a>
+        </div>
+
+      </div>
+      <div id="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>

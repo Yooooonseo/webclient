@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>브라질 리우 카니발 축제</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #container {
+        width: 1300px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #content {
+        width: 1070px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #content2{
+        width: 1250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border:1px solid #bcbcbc;
+      }
+      #sidebar {
+        width: 130px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 900px ) {
+        #container {
+          width: auto;
+        }
+        #content {
+          float: none;
+          width: auto;
+        }
+        #sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+     .gallery{
+       margin: 5px 5px;
+     }
+     .gallery img{
+       width: 233px;
+       height: 165.33px;
+       padding: 5px;
+       filter: grayscale(100%);
+       transition: 1s;
+     }
+     .gallery img:hover{
+       filter: grayscale(0);
+       transform: scale(1,1);
+     }
+     p, li{font-size: 17px;}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>브라질 리우 카니발 축제</h1>
+      </div>
+      <div id="content">
+        <h2>소개</h2>
+          <img src="../image/리우 카니발_1.jpeg" style="width:400px; margin:10px; margin-top: 0px; float:left;">
+          <p>원래 카니발은 금욕기간인 사순절을 앞두고 즐기는 축제를 말한다. 
+            그 가운데 가장 유명한 축제가 세계 3대 미항(美港)의 하나인 브라질의 리우데자네이루(Rio de Janeiro)에서 
+            열리는 리우 카니발이다. 개최 시기는 브라질 정부에서 정하는데, 매년 2월 말부터 3월 초 사이의 4일 동안이다.
+            이 때는 토요일 밤부터 수요일 새벽까지 밤낮을 가리지 않고 축제가 열린다.
+        </p>
+      </div>
+      <div id="sidebar">
+        <h2>menu</h2>
+        <ul>
+          <li><a href="브라질 리우 소개.html">소개</a></li><br>
+          <li><a href="브라질 리우 유래.html">유래</a></li><br>
+          <li><a href="브라질 리우 행사.html">행사</a></li>
+        </ul>
+      </div>
+      <div id="content2">
+        <h2>사진 더보기</h2>
+             <div class="gallery">
+                <a href="../image/리우1.jpg"><img src="../image/리우1.jpg"></a>
+                <a href="../image/리우2.png"><img src="../image/리우2.png"></a>
+                <a href="../image/리우3.jpg"><img src="../image/리우3.jpg"></a>
+                <a href="../image/리우4.jpg"><img src="../image/리우4.jpg"></a>
+                <a href="../image/리우5.jpeg"><img src="../image/리우5.jpeg"></a>
+              </div>
+
+      </div>
+      <div id="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>

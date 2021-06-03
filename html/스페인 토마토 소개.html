@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>스페인 토마토 축제</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #container {
+        width: 1300px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #content {
+        width: 1070px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #content2{
+        width: 1250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border:1px solid #bcbcbc;
+      }
+      #sidebar {
+        width: 130px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 900px ) {
+        #container {
+          width: auto;
+        }
+        #content {
+          float: none;
+          width: auto;
+        }
+        #sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+     .gallery{
+       margin: 5px 5px;
+     }
+     .gallery img{
+       width: 233px;
+       height: 165.33px;
+       padding: 5px;
+       filter: grayscale(100%);
+       transition: 1s;
+     }
+     .gallery img:hover{
+       filter: grayscale(0);
+       transform: scale(1,1);
+     }
+     p, li{font-size: 17px;}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>스페인 토마토 축제</h1>
+      </div>
+      <div id="content">
+        <h2>소개</h2>
+          <img src="../image/스페인 토마토_1.jpeg" style="width:400px; margin:10px; margin-top: 0px; float:left;">
+          <p>토마토 축제(La Tomatina)는 매년 8월 마지막 주 수요일에 개최되는 토마토 던지기 축제로, 
+            에스파냐 남동쪽, 지중해 연안 발렌시아 주의 작은 마을 부뇰에서 개최된다. 
+            토마토 축제가 있는 8월 마지막 주 내내 음악, 춤 공연, 거리 행진, 불꽃놀이가 펼쳐지며 축제 분위기가 이어지는데,
+            토마토 던지기는 수요일의 1시간여 동안만 진행된다. 축제 참가자들은 허락된 시간에 잘 익은 토마토를 서로에게 던지며
+            축제를 즐긴다. 가족, 시민과 방문객 등 남녀노소 가리지 않고 참여하는 토마토 축제는 유쾌하게 즐기는 난장판 축제다.
+        </p>
+      </div>
+      <div id="sidebar">
+        <h2>menu</h2>
+        <ul>
+          <li><a href="스페인 토마토 소개.html">소개</a></li><br>
+          <li><a href="스페인 토마토 유래.html">유래</a></li><br>
+          <li><a href="스페인 토마토 행사.html">행사</a></li>
+        </ul>
+      </div>
+      <div id="content2">
+        <h2>사진 더보기</h2>
+             <div class="gallery">
+                <a href="../image/토마토_6.jpeg"><img src="../image/토마토_6.jpeg"></a>
+                <a href="../image/토마토_2.jpg"><img src="../image/토마토_2.jpg"></a>
+                <a href="../image/토마토_3.jpg"><img src="../image/토마토_3.jpg"></a>
+                <a href="../image/토마토_4.jpg"><img src="../image/토마토_4.jpg"></a>
+                <a href="../image/토마토_5.jpg"><img src="../image/토마토_5.jpg"></a>
+              </div>
+
+      </div>
+      <div id="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>퀘벡 여름 축제</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #container {
+        width: 1300px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #content {
+        width: 1070px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #content2{
+        width: 1250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border:1px solid #bcbcbc;
+      }
+      #sidebar {
+        width: 130px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 900px ) {
+        #container {
+          width: auto;
+        }
+        #content {
+          float: none;
+          width: auto;
+        }
+        #sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+     .gallery{
+       margin: 5px 5px;
+     }
+     .gallery img{
+       width: 233px;
+       height: 165.33px;
+       padding: 5px;
+       filter: grayscale(100%);
+       transition: 1s;
+     }
+     .gallery img:hover{
+       filter: grayscale(0);
+       transform: scale(1,1);
+     }
+     p, li{font-size: 17px;}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>퀘벡 여름 축제</h1>
+      </div>
+      <div id="content">
+        <h2>유래</h2>
+          <img src="../image/퀘백 여름_1.jpeg" style="width:400px; margin:10px; margin-top: 0px; float:left;">
+          <p>퀘벡 여름 축제는 1968년에 처음 개최됐다. 퀘벡의 사업가와 음악인들이 이 지역이 지닌 음악적 자산과 
+            관광•문화적 가능성을 한자리에서 보여주자는 취지로 시작한 것이었다. 축제는 1970~80년대를 거치면서 
+            세계의 프랑코포니 음악가들이 모여 
+            각지의 음악을 선보이는 특색 있는 여름 이벤트로 자리 잡았다. 1992년 제25회 축제에는 전 세계 22개국에서 
+            모인 음악인들이 총 414회의 공연을 펼칠 정도로 규모가 성장했다. 2000년대에는 록, 힙합, 펑크, 클래식 등 
+            다양한 장르로 범위가 확장됐고, 세계적으로 인기 있는 대중 음악인들을 초청하면서 축제의 규모가 더욱 커졌다.
+        </p>
+      </div>
+      <div id="sidebar">
+        <h2>menu</h2>
+        <ul>
+          <li><a href="퀘벡 여름 소개.html">소개</a></li><br>
+          <li><a href="퀘벡 여름 유래.html">유래</a></li><br>
+          <li><a href="퀘벡 여름 행사.html">행사</a></li>
+        </ul>
+      </div>
+      <div id="content2">
+        <h2>사진 더보기</h2>
+        <div class="gallery">
+          <a href="../image/여름6.jpg"><img src="../image/여름6.jpg"></a>
+          <a href="../image/여름2.jpeg"><img src="../image/여름2.jpeg"></a>
+          <a href="../image/여름3.jpg"><img src="../image/여름3.jpg"></a>
+          <a href="../image/여름4.jpg"><img src="../image/여름4.jpg"></a>
+          <a href="../image/여름5.jpg"><img src="../image/여름5.jpg"></a>
+        </div>
+
+      </div>
+      <div id="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>

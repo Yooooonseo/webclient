@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>퀘벡 여름 축제</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #container {
+        width: 1300px;
+        margin: 10px auto;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      #header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #bcbcbc;
+        text-align: center;
+      }
+      #content {
+        width: 1070px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border: 1px solid #bcbcbc;
+      }
+      #content2{
+        width: 1250px;
+        padding: 20px;
+        margin-bottom: 20px;
+        float: right;
+        border:1px solid #bcbcbc;
+      }
+      #sidebar {
+        width: 130px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 10px;
+        float: left;
+        border: 1px solid #bcbcbc;
+      }
+      #footer {
+        clear: both;
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      @media ( max-width: 900px ) {
+        #container {
+          width: auto;
+        }
+        #content {
+          float: none;
+          width: auto;
+        }
+        #sidebar {
+          float: none;
+          width: auto;
+        }
+      }
+     .gallery{
+       margin: 5px 5px;
+     }
+     .gallery img{
+       width: 233px;
+       height: 165.33px;
+       padding: 5px;
+       filter: grayscale(100%);
+       transition: 1s;
+     }
+     .gallery img:hover{
+       filter: grayscale(0);
+       transform: scale(1,1);
+     }
+     p, li{font-size: 17px;}
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>퀘벡 여름 축제</h1>
+      </div>
+      <div id="content">
+        <h2>소개</h2>
+          <img src="../image/퀘백 여름_1.jpeg" style="width:400px; margin:10px; margin-top: 0px; float:left;">
+          <p>캐나다 동부에 위치한 퀘벡 주의 주도(州都) 퀘벡 시(Ville de Québec, Quebec City)에서는 해마다
+            7월 첫째 주에 퀘벡 여름 축제가 열린다. 1968년에 처음 개최된 이후 대중 음악을
+            중심으로 10여 일 동안 진행되는 퀘벡 여름 축제는 캐나다에서 가장 큰 야외 음악 공연이 펼쳐지는 음악 축제이자
+            북아메리카에서 가장 규모가 큰 음악 축제로 손꼽힌다. 축제 기간 동안 음악인 약 1천 명이 참여해 
+             퀘벡 시내 공연장 10여 곳에서 3백여 회에 이르는 공연을 선보인다.
+        </p>
+      </div>
+      <div id="sidebar">
+        <h2>menu</h2>
+        <ul>
+          <li><a href="퀘벡 여름 소개.html">소개</a></li><br>
+          <li><a href="퀘벡 여름 유래.html">유래</a></li><br>
+          <li><a href="퀘벡 여름 행사.html">행사</a></li>
+        </ul>
+      </div>
+      <div id="content2">
+        <h2>사진 더보기</h2>
+             <div class="gallery">
+                <a href="../image/여름6.jpg"><img src="../image/여름6.jpg"></a>
+                <a href="../image/여름2.jpeg"><img src="../image/여름2.jpeg"></a>
+                <a href="../image/여름3.jpg"><img src="../image/여름3.jpg"></a>
+                <a href="../image/여름4.jpg"><img src="../image/여름4.jpg"></a>
+                <a href="../image/여름5.jpg"><img src="../image/여름5.jpg"></a>
+              </div>
+
+      </div>
+      <div id="footer">
+        <p>Copyright</p>
+      </div>
+    </div>
+  </body>
+</html>
